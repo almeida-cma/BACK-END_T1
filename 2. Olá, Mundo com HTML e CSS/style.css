@@ -1,0 +1,9 @@
+body {
+    background-color: #f0f0f0; /* Um cinza bem clarinho */
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #0077cc; /* Um tom de azul */
+    text-align: center; /* Centraliza o texto */
+}

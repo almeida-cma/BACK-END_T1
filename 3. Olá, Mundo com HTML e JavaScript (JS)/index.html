@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo HTML com JS</title>
+</head>
+<body>
+    <h1 id="titulo">Olá...</h1>
+    <button onclick="mudarTexto()">Clique em mim!</button>
+
+    <script>
+        // Função que será chamada pelo botão
+        function mudarTexto() {
+            // Pega o elemento com o id "titulo"
+            var elementoH1 = document.getElementById("titulo");
+            // Altera o conteúdo de texto dele
+            elementoH1.innerHTML = "Olá, Mundo!";
+        }
+    </script>
+</body>
+</html>

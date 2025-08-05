@@ -1,0 +1,14 @@
+body {
+    background-color: #fffacd; /* Lemon Chiffon */
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+h1 {
+    color: #8b0000; /* Dark Red */
+    text-align: center;
+    font-size: 3em;
+}
+p {
+    text-align: center;
+    color: #555;
+}

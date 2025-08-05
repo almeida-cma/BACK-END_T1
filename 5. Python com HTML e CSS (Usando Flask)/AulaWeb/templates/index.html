@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Python com HTML</title>
+    <!-- O Flask procura arquivos estáticos na pasta 'static' -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- O texto entre chaves duplas é substituído pelo Python -->
+    <h1>{{ mensagem }}</h1>
+</body>
+</html>
